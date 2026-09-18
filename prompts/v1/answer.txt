@@ -1,0 +1,7 @@
+Context:
+{context}
+
+Question:
+{question}
+
+Answer using only the context above, with citation markers [1], [2], etc.

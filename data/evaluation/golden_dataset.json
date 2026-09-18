@@ -1,0 +1,78 @@
+[
+  {
+    "question": "What are the key benefits and features of a ZX Bank house loan?",
+    "ground_truth_answer": "Key benefits include attractive interest rates, flexible repayment tenure up to 30 years, quick approvals, funding up to 90% of property cost, and zero prepayment or foreclosure charges.",
+    "relevant_documents": ["ZX Bank House Loan.md"],
+    "relevant_chunks": ["zx-bank-house-loan-key-features-003"]
+  },
+  {
+    "question": "Which countries does ZX Bank Ltd operate in?",
+    "ground_truth_answer": "ZX Bank Ltd operates across primary markets including India, Singapore, and regional hubs in Asia.",
+    "relevant_documents": ["About ZX Bank Ltd.md"],
+    "relevant_chunks": ["about-zx-bank-ltd-operating-countries-002"]
+  },
+  {
+    "question": "What will be ZX Bank's stock price tomorrow?",
+    "ground_truth_answer": "This cannot be answered from the available documents.",
+    "relevant_documents": [],
+    "relevant_chunks": []
+  },
+  {
+    "question": "How long does it take for a new cheque book to be delivered from ZX Bank?",
+    "ground_truth_answer": "Cheque books are dispatched within 3 to 7 working days.",
+    "relevant_documents": ["How to Apply for a Cheque Book at ZX Bank.md"],
+    "relevant_chunks": ["apply-for-a-cheque-book-ℹ-frequently-asked-questions-007"]
+  },
+  {
+    "question": "How can I activate ZX Bank NetBanking online by myself?",
+    "ground_truth_answer": "Visit the ZX Bank Asia website, click 'NetBanking Login' > 'New User/Register', enter your Customer ID and registered mobile number, verify via OTP, and set your username and passwords.",
+    "relevant_documents": ["ZX Bank – NetBanking Guide.md"],
+    "relevant_chunks": ["netbanking-guide-1-self-registration-online-003"]
+  },
+  {
+    "question": "What is the IFSC code for the ZX Bank Siripuram Junction branch in Visakhapatnam?",
+    "ground_truth_answer": "The IFSC code for the Siripuram Junction branch is ZXIN0001500.",
+    "relevant_documents": ["ZX Bank Ltd. – Visakhapatnam Branch Network.md"],
+    "relevant_chunks": ["visakhapatnam-branch-network-central-visakhapatnam-006"]
+  },
+  {
+    "question": "What customer care numbers can international users outside India call for NetBanking support?",
+    "ground_truth_answer": "Sri Lanka: +94-11-2345678, Bangladesh: +880-17-12345678, Bhutan: +975-2-123456, and Nepal: +977-1-1234567.",
+    "relevant_documents": ["ZX Bank – NetBanking Guide.md"],
+    "relevant_chunks": ["netbanking-guide-support-008"]
+  },
+  {
+    "question": "What is a family floater health insurance policy?",
+    "ground_truth_answer": "A family floater health insurance policy is a single policy that covers the entire family under one shared sum insured.",
+    "relevant_documents": ["Health Insurance.md"],
+    "relevant_chunks": ["health-insurance-types-of-health-insurance-003"]
+  },
+  {
+    "question": "What ways can I request a cheque book besides using the mobile app or NetBanking?",
+    "ground_truth_answer": "You can request a cheque book in person at a ZX Bank branch, through a ZX Bank ATM, or by calling ZX Bank Customer Care helpline.",
+    "relevant_documents": ["How to Apply for a Cheque Book at ZX Bank.md"],
+    "relevant_chunks": [
+      "apply-for-a-cheque-book-3-at-branch-004",
+      "apply-for-a-cheque-book-4-via-zx-bank-atm-005",
+      "apply-for-a-cheque-book-5-zx-bank-customer-care-006"
+    ]
+  },
+  {
+    "question": "What is the contact number for the ZX Bank Dwarakanagar branch in Visakhapatnam?",
+    "ground_truth_answer": "The contact number for the Dwarakanagar branch is 0891-2592300.",
+    "relevant_documents": ["ZX Bank Ltd. – Visakhapatnam Branch Network.md"],
+    "relevant_chunks": ["visakhapatnam-branch-network-east-visakhapatnam-004"]
+  },
+  {
+    "question": "What is ZX Bank's official policy on cryptocurrency trading fees?",
+    "ground_truth_answer": "This cannot be answered from the available documents.",
+    "relevant_documents": [],
+    "relevant_chunks": []
+  },
+  {
+    "question": "How do I apply for a ZX Bank car loan through WhatsApp?",
+    "ground_truth_answer": "This cannot be answered from the available documents.",
+    "relevant_documents": [],
+    "relevant_chunks": []
+  }
+]

@@ -1,0 +1,13 @@
+# empty file
+chromadb
+sentence-transformers
+python-dotenv
+groq
+rank-bm25
+fastapi
+uvicorn[standard]
+streamlit
+requests
+pytest
+httpx
+ruff
