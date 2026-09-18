@@ -9,6 +9,8 @@ on:
 jobs:
   evaluate:
     runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: .
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -26,6 +28,8 @@ jobs:
 
       - name: Build the vector index
         run: python -m scripts.ingest
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
 
       - name: Run evaluation and check quality gate
         run: python -m scripts.check_quality_gate
