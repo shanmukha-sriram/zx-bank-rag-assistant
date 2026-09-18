@@ -30,11 +30,13 @@ jobs:
         run: python -m scripts.ingest
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          LLM_API_KEY: ${{ secrets.GROQ_API_KEY }}
 
       - name: Run evaluation and check quality gate
         run: python -m scripts.check_quality_gate
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          LLM_API_KEY: ${{ secrets.GROQ_API_KEY }}
           LLM_PROVIDER: groq
           LLM_MODEL: openai/gpt-oss-120b
           EMBEDDING_MODEL: sentence-transformers/all-MiniLM-L6-v2

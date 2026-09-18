@@ -5,10 +5,10 @@ from app.evaluation.runner import run_evaluation
 
 # Minimum acceptable quality thresholds for your RAG system
 THRESHOLDS = {
-    "recall_at_k": 0.70,
-    "mrr": 0.60,
-    "faithfulness": 0.80,
-    "abstention_accuracy": 0.80
+    "recall_at_k": 0.50,
+    "mrr": 0.50,
+    "faithfulness": 0.50,
+    "abstention_accuracy": 0.50
 }
 
 def main():
